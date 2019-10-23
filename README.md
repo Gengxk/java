@@ -80,5 +80,6 @@
   - zookepeer
   - disrupotr
   - docker
+  - k8s
   
    
