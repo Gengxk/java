@@ -124,7 +124,7 @@ public void localvarGct5(){
 
 ```
 
-  - ++栈上分配++（-XX:+DoEscapeAnalysis开启逃逸分析）
+  - **栈上分配**（-XX:+DoEscapeAnalysis开启逃逸分析）
 > 栈上分配是虚拟机提供的优化技术。主要是利用逃逸分析，将线程中的私有对象对象分配到栈中，不会引起大面积GC。（由于栈空间比较小，只适合小对象。）
 
   - 方法区（-XX:MaxMetaspaceSize指定大小）
